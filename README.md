@@ -89,7 +89,7 @@ with this code, you need to write a test yourself to verify your results.
 The figure of merit will be the run-time when running the improved program with ...
 
 ```console
-./krazymeans -k 24 -s 0e-4 -t 30 -i benchmark.kmd -o labels.kml
+./krazymeans -k 24 -s 1e-5 -t 30 -i benchmark.kmd -o labels.kml
 ```
 
 ... where `benchmark.kmd` was generated using the `-b` option.
