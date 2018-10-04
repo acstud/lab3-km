@@ -69,7 +69,7 @@ struct ProgramOptions {
 
   ///@brief Generate a DataSet useful for Benchmarking
   void generateBenchmark() {
-    auto ds = DataSet::random(42, 1024 * 512);
+    auto ds = DataSet::random(42, 1024 * 1024);
     ds->toFile("benchmark.kmd");
   }
 
